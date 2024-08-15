@@ -1,0 +1,41 @@
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .app {
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    .add-task-form {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .add-task-form input {
+        flex: 1;
+        padding: 8px;
+    }
+    
+    .add-task-form button {
+        padding: 8px;
+    }
+    
+    .task-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .task-item button {
+        margin-left: 10px;
+    }
+    
+    .task-list {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
